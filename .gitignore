@@ -1,0 +1,104 @@
+# Python byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+*.dll
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+.eggs/
+*.egg-info/
+*.egg
+sdist/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.python-version
+Scripts/
+
+# IDE / Editor
+.idea/
+.vscode/
+.spyproject/
+.ropeproject/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test, type-checkers, coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage*
+coverage.xml
+htmlcov/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Logs / Temp / Caches
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+.cache/
+cache/
+__pypackages__/
+
+# Data, models, artifacts (keep large artifacts out of git)
+data/
+dataset/
+datasets/
+models/
+checkpoints/
+outputs/
+runs/
+wandb/
+gradio_cached_examples/
+saved_model/
+
+# ML artifact files
+*.ckpt*
+*.h5
+*.hdf5
+*.pb
+*.tflite
+*.onnx
+*.joblib
+*.pkl
+
+# TensorBoard
+events.out.tfevents*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Credentials / environment
+.env
+.env.*
+*.env
+.kaggle/
+kaggle.json

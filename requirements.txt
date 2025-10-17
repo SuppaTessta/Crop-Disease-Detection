@@ -1,0 +1,23 @@
+# Core ML stack (TensorFlow 2.20 requires Keras >= 3.10)
+tensorflow==2.20.0
+keras>=3.10.0,<4
+numpy>=1.26,<3.0
+pandas>=2.2,<2.4
+matplotlib>=3.8,<3.11
+seaborn>=0.13,<0.14
+scikit-learn>=1.5,<1.7
+opencv-python>=4.10,<4.11
+pillow>=10.4,<11
+
+# UI + media
+# Gradio 4.44.x expects gradio-client==1.3.0; keep them in sync
+gradio==4.44.1
+gradio_client==1.3.0
+pydub>=0.25,<0.26
+# Python 3.13 backfill for stdlib audioop
+audioop-lts>=0.2.2
+
+# Utilities
+kaggle>=1.6,<1.8
+# tqdm is optional; keep flexible
+tqdm>=4.66,<5
